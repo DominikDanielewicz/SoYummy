@@ -1,2 +1,5 @@
 # SoYummy
-Application for discovering and managing recipes
+
+Application for discovering and managing recipes.
+
+WORK IN PROGRESS
