@@ -92,6 +92,9 @@ const lightTheme = {
       tertiary: colors.secondaryDark,
       accent: colors.white,
     },
+    mainTitle: {
+      primary: colors.mainAccent,
+    },
   },
 
   ...media,
@@ -113,6 +116,9 @@ const darkTheme = {
       secondary: colors.secondaryAccent,
       tertiary: colors.mainLight,
       accent: colors.transparent,
+    },
+    mainTitle: {
+      primary: colors.mainLight,
     },
   },
 
@@ -165,8 +171,7 @@ const GlobalStyles = styled.createGlobalStyle`
   img,
   picture,
   video,
-  canvas,
-  svg {
+  canvas {
     display: block;
     max-width: 100%;
   }

@@ -6,6 +6,9 @@ import { useSelector } from 'react-redux';
 import { selectTheme } from './redux/theme/selectors';
 import ThemeSwitcher from './components/ThemeSwitcher/ThemeSwitcher';
 import SearchInput from './components/SearchInput/SearchInput';
+import { Icon } from './components/Icon/Icon';
+import Logo from './components/Logo/Logo';
+import MainTitle from './components/MainTitle/MainTitle';
 
 const App = () => {
   const themeType = useSelector(selectTheme);
@@ -15,7 +18,6 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <GlobalStyles />
       <ThemeSwitcher />
-      <h1>SoYummy</h1>
       <Button>Search</Button>
       <Button $variant="roundedSmall">See recipe/Add</Button>
       <Button $variant="category">Other categories</Button>
@@ -26,6 +28,9 @@ const App = () => {
       <Button $variant="squareSmall">squareSmall</Button>
       <Button $variant="squareGray">squareGray</Button>
       <SearchInput placeholder="Enter the text" type="text" />
+      <Icon icon="icon-error" />
+      <Logo />
+      <MainTitle />
     </ThemeProvider>
   );
 };
