@@ -30,6 +30,7 @@ const App = () => {
       <SearchInput placeholder="Enter the text" type="text" />
       <Icon icon="icon-error" />
       <Logo />
+      <Logo $secondary />
       <MainTitle />
     </ThemeProvider>
   );

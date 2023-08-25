@@ -11,6 +11,7 @@ const StyledButton = styled.button`
   transition: background-color 150ms;
   font-size: 1.6rem;
   line-height: 1.125;
+  cursor: pointer;
 
   &:hover,
   &:focus,
@@ -31,7 +32,7 @@ const StyledButton = styled.button`
       height: 6.1rem;
       background-color: ${colors.transparent};
       border: 0.2rem solid ${colors.brand};
-      color: ${colors.mainAccent};
+      color: ${props => props.theme.color.button.accent};
       transition: color 150ms;
 
       &:hover,

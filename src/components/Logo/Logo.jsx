@@ -1,12 +1,7 @@
 import { StyledLogo } from './Logo.styled';
-import { PropTypes } from 'prop-types';
 
-const Logo = ({ footer }) => {
-  return <StyledLogo footer={footer} icon="icon-logo" />;
-};
-
-Logo.propTypes = {
-  footer: PropTypes.bool,
+const Logo = props => {
+  return <StyledLogo {...props} icon="icon-logo" />;
 };
 
 export default Logo;

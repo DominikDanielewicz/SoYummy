@@ -85,6 +85,7 @@ const lightTheme = {
       primary: colors.mainAccent,
       secondary: colors.brand,
       tertiary: colors.brand,
+      accent: colors.mainAccent,
     },
     search: {
       primary: colors.searchBorder,
@@ -110,6 +111,7 @@ const darkTheme = {
       primary: colors.brand,
       secondary: colors.mainAccent,
       tertiary: colors.mainAccent,
+      accent: colors.mainLight,
     },
     search: {
       primary: colors.secondaryAccent,
