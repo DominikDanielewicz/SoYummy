@@ -9,6 +9,7 @@ import SearchInput from './components/SearchInput/SearchInput';
 import { Icon } from './components/Icon/Icon';
 import Logo from './components/Logo/Logo';
 import MainTitle from './components/MainTitle/MainTitle';
+import Search from './components/Search/Search';
 
 const App = () => {
   const themeType = useSelector(selectTheme);
@@ -32,6 +33,7 @@ const App = () => {
       <Logo />
       <Logo $secondary />
       <MainTitle />
+      <Search />
     </ThemeProvider>
   );
 };
