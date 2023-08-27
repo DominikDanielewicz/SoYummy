@@ -3,7 +3,7 @@ import StyledButton from '../Button/Button.styled';
 
 export const StyledSearch = styled.form`
   position: relative;
-  max-width: 510px;
+  max-width: 51rem;
 
   ${StyledButton} {
     position: absolute;

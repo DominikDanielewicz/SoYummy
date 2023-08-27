@@ -96,6 +96,10 @@ const lightTheme = {
     mainTitle: {
       primary: colors.mainAccent,
     },
+    social: {
+      primary: colors.brand,
+      secondary: colors.mainLight,
+    },
   },
 
   ...media,
@@ -121,6 +125,10 @@ const darkTheme = {
     },
     mainTitle: {
       primary: colors.mainLight,
+    },
+    social: {
+      primary: colors.mainLight,
+      secondary: colors.mainDark,
     },
   },
 

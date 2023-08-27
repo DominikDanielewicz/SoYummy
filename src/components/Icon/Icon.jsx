@@ -1,11 +1,12 @@
 import icons from '../../assets/icons/sprite.svg';
 import PropTypes from 'prop-types';
+import { StyledIcon } from './Icon.styled';
 
 export const Icon = ({ className, icon }) => {
   return (
-    <svg className={className}>
+    <StyledIcon className={className}>
       <use href={icons + `#${icon}`} />
-    </svg>
+    </StyledIcon>
   );
 };
 

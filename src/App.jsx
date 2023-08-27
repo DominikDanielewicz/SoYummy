@@ -10,6 +10,7 @@ import { Icon } from './components/Icon/Icon';
 import Logo from './components/Logo/Logo';
 import MainTitle from './components/MainTitle/MainTitle';
 import Search from './components/Search/Search';
+import Socials from './components/Socials/Socials';
 
 const App = () => {
   const themeType = useSelector(selectTheme);
@@ -34,6 +35,7 @@ const App = () => {
       <Logo $secondary />
       <MainTitle />
       <Search />
+      <Socials />
     </ThemeProvider>
   );
 };
