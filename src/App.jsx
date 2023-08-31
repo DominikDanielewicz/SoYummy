@@ -1,4 +1,3 @@
-import './App.css';
 import Button from './components/Button/Button.styled';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyles, lightTheme, darkTheme } from './styles/themes';
@@ -11,6 +10,7 @@ import Logo from './components/Logo/Logo';
 import MainTitle from './components/MainTitle/MainTitle';
 import Search from './components/Search/Search';
 import Socials from './components/Socials/Socials';
+import MainMenu from './components/MainMenu/MainMenu';
 
 const App = () => {
   const themeType = useSelector(selectTheme);
@@ -36,6 +36,7 @@ const App = () => {
       <MainTitle />
       <Search />
       <Socials />
+      <MainMenu />
     </ThemeProvider>
   );
 };

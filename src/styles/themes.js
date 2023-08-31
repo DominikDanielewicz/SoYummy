@@ -100,6 +100,10 @@ const lightTheme = {
       primary: colors.brand,
       secondary: colors.mainLight,
     },
+    mainMenu: {
+      primary: colors.secondaryDark,
+      secondary: colors.brand,
+    },
   },
 
   ...media,
@@ -129,6 +133,10 @@ const darkTheme = {
     social: {
       primary: colors.mainLight,
       secondary: colors.mainDark,
+    },
+    mainMenu: {
+      primary: colors.mainLight,
+      secondary: colors.brand,
     },
   },
 
