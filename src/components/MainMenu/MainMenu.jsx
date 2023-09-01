@@ -1,5 +1,5 @@
 import { StyledMainMenu, MainMenuItem, MainMenuList } from './MainMenu.styled';
-import { NavLink } from 'react-router-dom';
+import { StyledNavLink } from './MainMenu.styled';
 import { Icon } from './../Icon/Icon';
 
 const MainMenu = () => {
@@ -7,24 +7,24 @@ const MainMenu = () => {
     <StyledMainMenu>
       <MainMenuList>
         <MainMenuItem>
-          <NavLink to="/categories">Categories</NavLink>
+          <StyledNavLink to="/categories">Categories</StyledNavLink>
         </MainMenuItem>
         <MainMenuItem>
-          <NavLink to="/add-recipes">Add recipes</NavLink>
+          <StyledNavLink to="/add-recipes">Add recipes</StyledNavLink>
         </MainMenuItem>
         <MainMenuItem>
-          <NavLink to="/my-recipes">My recipes</NavLink>
+          <StyledNavLink to="/my-recipes">My recipes</StyledNavLink>
         </MainMenuItem>
         <MainMenuItem>
-          <NavLink to="/favorites">Favorites</NavLink>
+          <StyledNavLink to="/favorites">Favorites</StyledNavLink>
         </MainMenuItem>
         <MainMenuItem>
-          <NavLink to="/shopping-list">Shopping list</NavLink>
+          <StyledNavLink to="/shopping-list">Shopping list</StyledNavLink>
         </MainMenuItem>
         <MainMenuItem>
-          <NavLink to="/search">
+          <StyledNavLink to="/search">
             <Icon icon="icon-magnifier" />
-          </NavLink>
+          </StyledNavLink>
         </MainMenuItem>
       </MainMenuList>
     </StyledMainMenu>
