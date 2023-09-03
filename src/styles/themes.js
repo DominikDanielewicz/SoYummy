@@ -64,6 +64,8 @@ const colors = {
   switchbg: '#efefef',
   switchbtn: '#f4f5f5',
   searchBorder: '#f0f0f0',
+  welcomeGradientFirst: '#00000099',
+  welcomeGradientSecond: '#00000059',
 };
 
 //FAFAFA 0.1 #fafafa1a

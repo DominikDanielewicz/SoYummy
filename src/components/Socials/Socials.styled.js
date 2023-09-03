@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { StyledIcon } from './../Icon/Icon.styled';
+import { StyledIcon } from '../Icon/Icon.styled';
 
 export const SocialsList = styled.ul`
   display: flex;
