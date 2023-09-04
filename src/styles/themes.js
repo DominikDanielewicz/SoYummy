@@ -106,6 +106,9 @@ const lightTheme = {
       primary: colors.secondaryDark,
       secondary: colors.brand,
     },
+    paragraph: {
+      primary: colors.secondaryDark,
+    },
   },
 
   ...media,
@@ -139,6 +142,9 @@ const darkTheme = {
     mainMenu: {
       primary: colors.mainLight,
       secondary: colors.brand,
+    },
+    paragraph: {
+      primary: colors.mainLight,
     },
   },
 

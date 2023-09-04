@@ -6,7 +6,6 @@ const Button = ({ type, children }) => {
 };
 
 Button.propTypes = {
-  props: PropTypes.any,
   children: PropTypes.node,
   type: PropTypes.string,
 };
