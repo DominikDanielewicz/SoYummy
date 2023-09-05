@@ -109,6 +109,9 @@ const lightTheme = {
     paragraph: {
       primary: colors.secondaryDark,
     },
+    heading: {
+      primary: colors.primaryDark,
+    },
   },
 
   ...media,
@@ -144,6 +147,9 @@ const darkTheme = {
       secondary: colors.brand,
     },
     paragraph: {
+      primary: colors.mainLight,
+    },
+    heading: {
       primary: colors.mainLight,
     },
   },
@@ -230,4 +236,4 @@ const GlobalStyles = styled.createGlobalStyle`
   }
 `;
 
-export { GlobalStyles, lightTheme, darkTheme, colors };
+export { GlobalStyles, lightTheme, darkTheme, colors, typography, media };
